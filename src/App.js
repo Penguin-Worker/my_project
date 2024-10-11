@@ -14,8 +14,9 @@ class App extends Component {
 
     return (
       <div className="App">
-        <Header companyName={companyName} />
-        <MainContent items={items} />
+        <Header />
+        <MainContent />
+        <Sidebar />
         <Footer />
       </div>
     );
