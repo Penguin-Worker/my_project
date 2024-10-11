@@ -12,15 +12,15 @@ import OrganiztionInfo from './components/OrganiztionInfo/OrganiztionInfo';
 
 class App extends Component {
   render() {
-    const companyName = "Моя Организация";
-    const items = ["Элемент 1", "Элемент 2", "Элемент 3"];
-
+    const companyName = "yes!";
+    const items = ["Был контент", "Будет контент", "Нет контента"];
+const companyAbout = "no yes!";
     return (
       <div className="App">
         <Header companyName={companyName}/>
         <MainContent items={items}/>
         <Sidebar />
-        <OrganiztionInfo />
+        <OrganiztionInfo companyAbout={companyAbout}/>
         <AnotherComponent />
         <Footer />
       </div>

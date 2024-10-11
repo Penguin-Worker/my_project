@@ -3,6 +3,7 @@ import './Header.css'; // Импортируйте CSS-файл
 
 class Header extends Component {
   render() {
+    const { companyName } = this.props;
     return (
       <header>
         <div className="MenuHigh">
@@ -46,7 +47,7 @@ class Header extends Component {
             </div>
             <div className="Menu4">
               <div className="rectangle-6"></div>
-              <a href="../HomePage/index.html" className="Menu4text">yes.</a>
+              <a href="../HomePage/index.html" className="Menu4text">{companyName}</a>
             </div>
             <div className="Menu5">
               <div className="rectangle-7"></div>
