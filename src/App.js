@@ -14,7 +14,8 @@ class App extends Component {
   render() {
     const companyName = "yes!";
     const items = ["Был контент", "Будет контент", "Нет контента"];
-const companyAbout = "no yes!";
+    const companyAbout = "no yes!";
+    
     return (
       <div className="App">
         <Header companyName={companyName}/>
