@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.content-wrapper {
+  display: flex;
+}
+
+.sidebar {
+  flex: 0 0 200px; /* Ширина боковой панели */
+}
+
+.main-content {
+  flex: 1; /* Основной контент занимает оставшееся пространство */
+}

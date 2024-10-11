@@ -61,10 +61,10 @@ class Header extends Component {
             <div className="cube">
               <div className="side front"></div>
               <div className="side back"></div>
-              <div className="side left"></div>
+              <div className="side1 left"></div>
               <div className="side right"></div>
               <div className="side top"></div>
-              <div className="side bottom"></div>
+              <div className="side1 bottom"></div>
             </div>
             {/* Повторите для других кубов, если нужно */}
           </div>
