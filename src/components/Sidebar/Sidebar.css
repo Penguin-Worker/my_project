@@ -1,11 +1,11 @@
 .sidebar {
     width:  150px; /* Ширина боковой панели */
-    height: 50vh; /* Высота на весь экран */
+    height: 25vh; /* Высота на весь экран */
     background-color: #333; /* Темный фон */
     color: white; /* Белый текст */
     position: fixed; /* Фиксированная панель */
     top: 85px;
-    left: 0; /* Панель слева */
+    left: 1%; /* Панель слева */
     display: flex;
     flex-direction: column;
     justify-content: start;
